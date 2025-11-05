@@ -1,0 +1,1721 @@
+{
+	"id": "433c01ba-9ba3-f011-b3cd-000d3ab9d08b",
+	"createdAt": "2025-10-07T16:36:09.456Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"config": {
+		"entityId": "C24DA671-9BA3-F011-B3CD-000D3AB9D08B",
+		"operations": {
+			"C": {
+				"enabled": false
+			},
+			"R": {
+				"enabled": true,
+				"fields": [
+					{
+						"fieldName": "id",
+						"fieldType": "uuid",
+						"isUnique": true,
+						"isNullable": false,
+						"generationStrategy": "uuid",
+						"included": true
+					},
+					{
+						"fieldName": "createdAt",
+						"fieldType": "bigint",
+						"isNullable": false,
+						"included": true
+					},
+					{
+						"fieldName": "createdBy",
+						"fieldType": "text",
+						"isNullable": false,
+						"included": true
+					},
+					{
+						"fieldName": "updatedAt",
+						"fieldType": "bigint",
+						"isNullable": false,
+						"included": true
+					},
+					{
+						"fieldName": "updatedBy",
+						"fieldType": "text",
+						"isNullable": false,
+						"included": true
+					},
+					{
+						"fieldName": "AccountId18Char",
+						"fieldType": "mediumtext",
+						"description": "AccountId18Char",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCAccountName",
+						"fieldType": "text",
+						"description": "SFDC Account Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4Licensee",
+						"fieldType": "text",
+						"description": "S4 Licensee",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCType",
+						"fieldType": "text",
+						"description": "SFDC Type",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Territory",
+						"fieldType": "text",
+						"description": "Territory",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCBillingCountry",
+						"fieldType": "text",
+						"description": "SFDC Billing Country",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCBillingStateProvince",
+						"fieldType": "text",
+						"description": "SFDC Billing State Province",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCIndustry",
+						"fieldType": "text",
+						"description": "SFDC Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCEmployees",
+						"fieldType": "text",
+						"description": "SFDC Employees",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGITotalEmployees",
+						"fieldType": "text",
+						"description": "HGI Total Employees",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "StayinMarket",
+						"fieldType": "text",
+						"description": "Stayin Market",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCAccountOwner",
+						"fieldType": "text",
+						"description": "SFDC Account Owner",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "FitScore",
+						"fieldType": "text",
+						"description": "Fit Score",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "IntentScore",
+						"fieldType": "integer",
+						"description": "Intent Score",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "ActonScore",
+						"fieldType": "integer",
+						"description": "Acton Score",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "InvoiceDue",
+						"fieldType": "text",
+						"description": "Invoice Due",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "DueAmount",
+						"fieldType": "text",
+						"description": "Due Amount",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "DueCcy",
+						"fieldType": "text",
+						"description": "Due Ccy",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4ARRAmount",
+						"fieldType": "integer",
+						"description": "S4 ARR Amount",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Maintenance",
+						"fieldType": "integer",
+						"description": "Maintenance",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Subscription",
+						"fieldType": "integer",
+						"description": "Subscription",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Quarter",
+						"fieldType": "text",
+						"description": "Quarter",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "NextRenewalDate1",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "NextRenewalDate",
+						"fieldType": "text",
+						"description": "Next Renewal Date",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "NextRenewalARR",
+						"fieldType": "text",
+						"description": "Next Renewal ARR",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "LaterRenewalARR",
+						"fieldType": "text",
+						"description": "Later Renewal ARR",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "2024Q2",
+						"fieldType": "text",
+						"description": "2024 Q2",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "2024Q3",
+						"fieldType": "text",
+						"description": "2024 Q3",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "2024Q4",
+						"fieldType": "text",
+						"description": "2024 Q4",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "2025Q1",
+						"fieldType": "text",
+						"description": "2025 Q1",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "TotalSAP",
+						"fieldType": "text",
+						"description": "Total SAP",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "TotalOpen",
+						"fieldType": "text",
+						"description": "Total Open",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SAPruntimes",
+						"fieldType": "text",
+						"description": "SAP Runtimes",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SAPuserlicenses",
+						"fieldType": "text",
+						"description": "SAP User Licenses",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Openruntimes",
+						"fieldType": "text",
+						"description": "Open Runtimes",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Openuserlicenses",
+						"fieldType": "text",
+						"description": "Open User Licenses",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "DXPuserLicenses",
+						"fieldType": "text",
+						"description": "DXP User Licenses",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "PSEcount",
+						"fieldType": "text",
+						"description": "PSE Count",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "PSE",
+						"fieldType": "text",
+						"description": "PSE",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "ofDocs",
+						"fieldType": "text",
+						"description": "# of Docs",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4BillToCountry",
+						"fieldType": "text",
+						"description": "S4 Bill-To Country",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4BillToCompany",
+						"fieldType": "text",
+						"description": "S4 Bill-To Company",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4BillToType",
+						"fieldType": "text",
+						"description": "S4 Bill-To Type",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Partner",
+						"fieldType": "text",
+						"description": "Partner",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "nARR",
+						"fieldType": "text",
+						"description": "nARR (€)",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "OpenOpps",
+						"fieldType": "text",
+						"description": "Open Opps (#)",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "CustinHierarchy",
+						"fieldType": "text",
+						"description": "Cust in Hierarchy",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "OppsinHierarchy",
+						"fieldType": "text",
+						"description": "Opps in Hierarchy",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIDomainNameNormalized",
+						"fieldType": "text",
+						"description": "HGI Domain Name Normalized",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIMatchTypes",
+						"fieldType": "text",
+						"description": "HGI Match Types",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGeopoliticalName",
+						"fieldType": "text",
+						"description": "HGI Geopolitica Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGICountry",
+						"fieldType": "text",
+						"description": "HGI Country",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIState",
+						"fieldType": "text",
+						"description": "HGI State",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIIndustry",
+						"fieldType": "text",
+						"description": "HGI Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGINAICSCode",
+						"fieldType": "text",
+						"description": "HGI NAICS Code",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGINAICSIndustry",
+						"fieldType": "text",
+						"description": "HGI NAICS Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGISICCode",
+						"fieldType": "text",
+						"description": "HGI SIC Code(s)",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGISICIndustry",
+						"fieldType": "text",
+						"description": "HGI SIC Industry(s)",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGITotalRevenue",
+						"fieldType": "text",
+						"description": "HGI Total Revenue",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIRevenueBand",
+						"fieldType": "text",
+						"description": "HGI Revenue Band",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIEmployeeBand",
+						"fieldType": "text",
+						"description": "HGI Employee Band",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQCompanyName",
+						"fieldType": "text",
+						"description": "HGI Group HQ Company Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQDomainName",
+						"fieldType": "text",
+						"description": "HGI Group HQ Domain Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQDomainNameNormalized",
+						"fieldType": "text",
+						"description": "HGI Group HQ Domain Name Normalized",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQHGCompanyID",
+						"fieldType": "text",
+						"description": "HGI Group HQ HG CompanyID",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQGeopoliticalName",
+						"fieldType": "text",
+						"description": "HGI Group HQ Geopolitical Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQCountry",
+						"fieldType": "text",
+						"description": "HGI Group HQ Country",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQState",
+						"fieldType": "text",
+						"description": "HGI Group HQ State",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQTotalEmployees",
+						"fieldType": "text",
+						"description": "HGI Group HQ Total Employees",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQEmployeeBand",
+						"fieldType": "text",
+						"description": "HGI Group HQ Employee Band",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQTotalRevenue",
+						"fieldType": "text",
+						"description": "HGI Group HQ Total Revenue",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQRevenueBand",
+						"fieldType": "text",
+						"description": "HGI Group HQ Revenue Band",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQIndustry",
+						"fieldType": "text",
+						"description": "HGI Group HQ Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQNAICSCode",
+						"fieldType": "text",
+						"description": "HGI Group HQ NAICS Code",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQNAICSIndustry",
+						"fieldType": "text",
+						"description": "HGI Group HQ NAICS Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQSICCode",
+						"fieldType": "text",
+						"description": "HGI Group HQ SIC Code",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQSICIndustry",
+						"fieldType": "text",
+						"description": "HGI Group HQ SIC Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCPartner",
+						"fieldType": "text",
+						"description": "SFDC Partner",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCAccountNumber",
+						"fieldType": "text",
+						"description": "SFDC Account Number",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4SalesforceID",
+						"fieldType": "text",
+						"description": "S4 Salesforce ID",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIHGCompanyID",
+						"fieldType": "text",
+						"description": "HGI HG Company ID",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCParentAccountID",
+						"fieldType": "text",
+						"description": "SFDC Parent Account ID",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCParentAccount",
+						"fieldType": "text",
+						"description": "SFDC Parent Account",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCWebsite",
+						"fieldType": "text",
+						"description": "SFDC Website",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGICompanyName",
+						"fieldType": "text",
+						"description": "HGI Company Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Originalinvestment",
+						"fieldType": "text",
+						"description": "Original Investment",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "LicensesUsed",
+						"fieldType": "text",
+						"description": "Licenses Used",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Revenue",
+						"fieldType": "text",
+						"description": "Revenue",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Numberofemployees",
+						"fieldType": "text",
+						"description": "Number Of Employees",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Website",
+						"fieldType": "text",
+						"description": "Website",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "CountryandState",
+						"fieldType": "text",
+						"description": "Country / State",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Industry",
+						"fieldType": "text",
+						"description": "Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCURL",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCpartnerID",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "AccountownerID",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCopportunities",
+						"fieldType": "json",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "FreshdeskTickets",
+						"fieldType": "json",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "freshdeskHealthScore",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					}
+				]
+			},
+			"U": {
+				"enabled": false,
+				"fields": [
+					{
+						"fieldName": "AccountId18Char",
+						"fieldType": "mediumtext",
+						"description": "AccountId18Char",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCAccountName",
+						"fieldType": "text",
+						"description": "SFDC Account Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4Licensee",
+						"fieldType": "text",
+						"description": "S4 Licensee",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCType",
+						"fieldType": "text",
+						"description": "SFDC Type",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Territory",
+						"fieldType": "text",
+						"description": "Territory",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCBillingCountry",
+						"fieldType": "text",
+						"description": "SFDC Billing Country",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCBillingStateProvince",
+						"fieldType": "text",
+						"description": "SFDC Billing State Province",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCIndustry",
+						"fieldType": "text",
+						"description": "SFDC Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCEmployees",
+						"fieldType": "text",
+						"description": "SFDC Employees",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGITotalEmployees",
+						"fieldType": "text",
+						"description": "HGI Total Employees",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "StayinMarket",
+						"fieldType": "text",
+						"description": "Stayin Market",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCAccountOwner",
+						"fieldType": "text",
+						"description": "SFDC Account Owner",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "FitScore",
+						"fieldType": "text",
+						"description": "Fit Score",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "IntentScore",
+						"fieldType": "integer",
+						"description": "Intent Score",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "ActonScore",
+						"fieldType": "integer",
+						"description": "Acton Score",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "InvoiceDue",
+						"fieldType": "text",
+						"description": "Invoice Due",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "DueAmount",
+						"fieldType": "text",
+						"description": "Due Amount",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "DueCcy",
+						"fieldType": "text",
+						"description": "Due Ccy",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4ARRAmount",
+						"fieldType": "integer",
+						"description": "S4 ARR Amount",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Maintenance",
+						"fieldType": "integer",
+						"description": "Maintenance",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Subscription",
+						"fieldType": "integer",
+						"description": "Subscription",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Quarter",
+						"fieldType": "text",
+						"description": "Quarter",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "NextRenewalDate1",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "NextRenewalDate",
+						"fieldType": "text",
+						"description": "Next Renewal Date",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "NextRenewalARR",
+						"fieldType": "text",
+						"description": "Next Renewal ARR",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "LaterRenewalARR",
+						"fieldType": "text",
+						"description": "Later Renewal ARR",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "2024Q2",
+						"fieldType": "text",
+						"description": "2024 Q2",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "2024Q3",
+						"fieldType": "text",
+						"description": "2024 Q3",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "2024Q4",
+						"fieldType": "text",
+						"description": "2024 Q4",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "2025Q1",
+						"fieldType": "text",
+						"description": "2025 Q1",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "TotalSAP",
+						"fieldType": "text",
+						"description": "Total SAP",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "TotalOpen",
+						"fieldType": "text",
+						"description": "Total Open",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SAPruntimes",
+						"fieldType": "text",
+						"description": "SAP Runtimes",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SAPuserlicenses",
+						"fieldType": "text",
+						"description": "SAP User Licenses",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Openruntimes",
+						"fieldType": "text",
+						"description": "Open Runtimes",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Openuserlicenses",
+						"fieldType": "text",
+						"description": "Open User Licenses",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "DXPuserLicenses",
+						"fieldType": "text",
+						"description": "DXP User Licenses",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "PSEcount",
+						"fieldType": "text",
+						"description": "PSE Count",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "PSE",
+						"fieldType": "text",
+						"description": "PSE",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "ofDocs",
+						"fieldType": "text",
+						"description": "# of Docs",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4BillToCountry",
+						"fieldType": "text",
+						"description": "S4 Bill-To Country",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4BillToCompany",
+						"fieldType": "text",
+						"description": "S4 Bill-To Company",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4BillToType",
+						"fieldType": "text",
+						"description": "S4 Bill-To Type",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Partner",
+						"fieldType": "text",
+						"description": "Partner",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "nARR",
+						"fieldType": "text",
+						"description": "nARR (€)",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "OpenOpps",
+						"fieldType": "text",
+						"description": "Open Opps (#)",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "CustinHierarchy",
+						"fieldType": "text",
+						"description": "Cust in Hierarchy",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "OppsinHierarchy",
+						"fieldType": "text",
+						"description": "Opps in Hierarchy",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIDomainNameNormalized",
+						"fieldType": "text",
+						"description": "HGI Domain Name Normalized",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIMatchTypes",
+						"fieldType": "text",
+						"description": "HGI Match Types",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGeopoliticalName",
+						"fieldType": "text",
+						"description": "HGI Geopolitica Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGICountry",
+						"fieldType": "text",
+						"description": "HGI Country",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIState",
+						"fieldType": "text",
+						"description": "HGI State",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIIndustry",
+						"fieldType": "text",
+						"description": "HGI Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGINAICSCode",
+						"fieldType": "text",
+						"description": "HGI NAICS Code",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGINAICSIndustry",
+						"fieldType": "text",
+						"description": "HGI NAICS Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGISICCode",
+						"fieldType": "text",
+						"description": "HGI SIC Code(s)",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGISICIndustry",
+						"fieldType": "text",
+						"description": "HGI SIC Industry(s)",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGITotalRevenue",
+						"fieldType": "text",
+						"description": "HGI Total Revenue",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIRevenueBand",
+						"fieldType": "text",
+						"description": "HGI Revenue Band",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIEmployeeBand",
+						"fieldType": "text",
+						"description": "HGI Employee Band",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQCompanyName",
+						"fieldType": "text",
+						"description": "HGI Group HQ Company Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQDomainName",
+						"fieldType": "text",
+						"description": "HGI Group HQ Domain Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQDomainNameNormalized",
+						"fieldType": "text",
+						"description": "HGI Group HQ Domain Name Normalized",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQHGCompanyID",
+						"fieldType": "text",
+						"description": "HGI Group HQ HG CompanyID",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQGeopoliticalName",
+						"fieldType": "text",
+						"description": "HGI Group HQ Geopolitical Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQCountry",
+						"fieldType": "text",
+						"description": "HGI Group HQ Country",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQState",
+						"fieldType": "text",
+						"description": "HGI Group HQ State",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQTotalEmployees",
+						"fieldType": "text",
+						"description": "HGI Group HQ Total Employees",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQEmployeeBand",
+						"fieldType": "text",
+						"description": "HGI Group HQ Employee Band",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQTotalRevenue",
+						"fieldType": "text",
+						"description": "HGI Group HQ Total Revenue",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQRevenueBand",
+						"fieldType": "text",
+						"description": "HGI Group HQ Revenue Band",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQIndustry",
+						"fieldType": "text",
+						"description": "HGI Group HQ Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQNAICSCode",
+						"fieldType": "text",
+						"description": "HGI Group HQ NAICS Code",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQNAICSIndustry",
+						"fieldType": "text",
+						"description": "HGI Group HQ NAICS Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQSICCode",
+						"fieldType": "text",
+						"description": "HGI Group HQ SIC Code",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIGroupHQSICIndustry",
+						"fieldType": "text",
+						"description": "HGI Group HQ SIC Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCPartner",
+						"fieldType": "text",
+						"description": "SFDC Partner",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCAccountNumber",
+						"fieldType": "text",
+						"description": "SFDC Account Number",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "S4SalesforceID",
+						"fieldType": "text",
+						"description": "S4 Salesforce ID",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGIHGCompanyID",
+						"fieldType": "text",
+						"description": "HGI HG Company ID",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCParentAccountID",
+						"fieldType": "text",
+						"description": "SFDC Parent Account ID",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCParentAccount",
+						"fieldType": "text",
+						"description": "SFDC Parent Account",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCWebsite",
+						"fieldType": "text",
+						"description": "SFDC Website",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "HGICompanyName",
+						"fieldType": "text",
+						"description": "HGI Company Name",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Originalinvestment",
+						"fieldType": "text",
+						"description": "Original Investment",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "LicensesUsed",
+						"fieldType": "text",
+						"description": "Licenses Used",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Revenue",
+						"fieldType": "text",
+						"description": "Revenue",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Numberofemployees",
+						"fieldType": "text",
+						"description": "Number Of Employees",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Website",
+						"fieldType": "text",
+						"description": "Website",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "CountryandState",
+						"fieldType": "text",
+						"description": "Country / State",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "Industry",
+						"fieldType": "text",
+						"description": "Industry",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCURL",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCpartnerID",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "AccountownerID",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "SFDCopportunities",
+						"fieldType": "json",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "FreshdeskTickets",
+						"fieldType": "json",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					},
+					{
+						"fieldName": "freshdeskHealthScore",
+						"fieldType": "text",
+						"description": "",
+						"isUnique": false,
+						"isNullable": true,
+						"included": true
+					}
+				]
+			},
+			"D": {
+				"enabled": false
+			}
+		}
+	},
+	"name": "CustomerData",
+	"ver": "25.11.05.1251",
+	"version": null,
+	"description": [
+		"==OBJECT STRING==",
+		"# Internal Dataset Query Tool Guide ",
+		"This tool enables dynamic queries against the internal dataset `customer360` for customer and partner data using JavaScript and typeorm. It is designed to work seamlessly in a chat-integrated environment powered by LLMs.",
+		"",
+		"## Usage Overview",
+		"",
+		"- Data Source: entityset_customer360",
+		"- Context: Script is embedded within an `async` function. Do not define your own async wrapper.",
+		"- Interface: Use the `entityManager` object to query the database.",
+		" ",
+		"",
+		"## Implementation Guidelines",
+		"",
+		"1. Do NOT use `import`, `require`, or external request functions.",
+		"2. Do NOT define a new function unless the user explicitly requests one.",
+		"3. Never redeclare the `content` object. Assign to it only once.",
+		"4. Always include error handling using `try/catch`.",
+		"5. Use descriptive output.",
+		"6. Never expose field names directly in chat responses. Always use the human-readable descriptions.",
+		"7. Valid typeorm operators: In, Any, Between, Equal, IsNull, LessThan, LessThanOrEqual, Like, MoreThan, MoreThanOrEqual, Not, Raw, Brackets",
+		"8. DELETE Operations is not allowed, but UPDATE is Allowed",
+		"",
+		"",
+		"## Query Example",
+		" ",
+		"try {",
+		"  const dbRows = await entityManager.find(\"entityset_customer360\", {",
+		"    select: [\"AccountId18Char\", \"SFDCAccountName\"],",
+		"    where: { SFDCBillingCountry: In([\"Norway\"]) }",
+		"  });",
+		"",
+		"  content = \"Found X accounts in Norway. Each entry includes Account ID and Account Name.\";",
+		"  complete();",
+		"} catch (err) {",
+		"  content = \"Error fetching data: \" + err.message;",
+		"  complete();",
+		"}",
+		" ",
+		"",
+		"## Output Format Specification",
+		"",
+		"Your script must conclude with the following two lines:",
+		"",
+		"content = \"The data to return in string format with explanation information to the LLM\";",
+		"complete();",
+		"",
+		"The `content` string should clearly explain what was retrieved for optimal LLM understanding.",
+		"",
+		"## Table Field Reference",
+		"",
+		"Field Name, Description, Field Type, Enum;",
+		"AccountId18Char,Account ID,text;",
+		"SFDCAccountName,Account Name,text;",
+		"S4Licensee,S4 Licensee,text;",
+		"SFDCType,Account Type,text, ['Customer','OEM Customer','Prospect Customer','Churn Customer','Lost Prospect','Partner','Partner Prospect','Other'];",
+		"SFDCBillingCountry,SFDC Billing Country,text;",
+		"SFDCBillingStateProvince,SFDC Billing State/Province,text;",
+		"SFDCIndustry,Industry,text;",
+		"SFDCEmployees,Number of Employees,text;",
+		"StayinMarket,Stay-in-Market,text, ['Retain', null, 'Growth', 'Strategic', 'Protect'];",
+		"SFDCAccountOwner,Account Owner,text;",
+		"FitScore,Fit Score,text;",
+		"IntentScore,Intent Score,integer;",
+		"ActonScore,Act-on Score,integer;",
+		"InvoiceDue,Invoice Due in Days,text;",
+		"DueAmount,Invoice Due Amount,text;",
+		"DueCcy,Invoice Due Currency,text;",
+		"S4ARRAmount,ARR Amount in EUR,integer;",
+		"Maintenance,Maintenance Amount in EUR,integer;",
+		"Subscription,Subscription Amount in EUR,integer;",
+		"Quarter,Next billing quarter,text;",
+		"NextRenewalDate,Next Renewal Date,text;",
+		"NextRenewalARR,Next Renewal ARR in EUR,text;",
+		"LaterRenewalARR,Later Renewal ARR in EUR,text;",
+		"TotalSAP,Total SAP User licenses,text, [\"Enterprise\" or number];",
+		"TotalOpen,Total Open User licenses,text,[\"Enterprise\" or number];",
+		"SAPruntimes,Number of SAP Runtimes,text;",
+		"Openruntimes,Number of Open Runtimes,text;",
+		"DXPuserLicenses,DXP User Licenses (SAP+Open),text;",
+		"PSE,PSE Amount in EUR,text;",
+		"S4BillToCountry,S4 Bill-To Country,text;",
+		"S4BillToCompany,S4 Bill-To Company,text;",
+		"S4BillToType,S4 Bill-To Type,text;",
+		"SFDCPartner,Partner Name,text;",
+		"S4SalesforceID,SAP Customer Number,text;",
+		"SFDCParentAccountID,Parent Account ID,text;",
+		"SFDCParentAccount,Parent Account Name,text;",
+		"SFDCWebsite,Account Website,text;"
+	],
+	"package": "3a0d8548-45ba-f011-8194-0022489bf196",
+	"type": "TABLE"
+}

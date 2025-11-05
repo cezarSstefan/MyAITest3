@@ -1,0 +1,88 @@
+{
+	"id": "76921344-41ba-f011-8194-0022489bf196",
+	"createdAt": "2025-11-05T12:16:33.643Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"config": {
+		"modelConfig": {
+			"response_format": "text",
+			"temperature": 0.49,
+			"schema": {},
+			"lastMessages": 6
+		},
+		"vectorConfig": {
+			"k": 1,
+			"threshold": 0.8
+		},
+		"onlyMetadata": true,
+		"provider": {},
+		"dailyUserTokenLimit": 10000,
+		"preScript": "7913e473-d3b3-f011-8e61-002248995116",
+		"maxSteps": 5
+	},
+	"name": "MyAgent-GitHub",
+	"ver": "25.11.05.1249",
+	"version": null,
+	"description": null,
+	"package": "3a0d8548-45ba-f011-8194-0022489bf196",
+	"model": "d5cf1399-deb3-f011-8e61-002248995116",
+	"localMCPConnections": [
+		{
+			"id": "94eff0e9-a5b8-f011-8e61-002248a010fd"
+		}
+	],
+	"remoteMCPConnections": [
+		{
+			"id": "6eda4c24-a8b8-f011-8e61-002248a010fd",
+			"name": "Geko-Test2",
+			"ver": "25.11.03.1128"
+		}
+	],
+	"roles": [],
+	"tools": [
+		{
+			"id": "69fd5217-20b0-f011-8e61-000d3a67c71e",
+			"name": "EmailToolTestWithTemplate",
+			"ver": "25.11.05.1250"
+		},
+		{
+			"id": "4df63a15-4eac-f011-8e61-000d3ab674a1",
+			"name": "api_tool",
+			"ver": "25.11.05.1250"
+		},
+		{
+			"id": "433c01ba-9ba3-f011-b3cd-000d3ab9d08b",
+			"name": "CustomerData",
+			"ver": "25.11.05.1251"
+		},
+		{
+			"id": "3ec41b3a-12b4-f011-8e61-002248995116",
+			"name": "pdf_interface_RBAC",
+			"ver": "25.11.05.1251"
+		}
+	],
+	"tableSources": [
+		{
+			"id": "8addb259-7cb5-f011-8e61-002248a0159d",
+			"name": "cities_copy",
+			"ver": "25.10.30.1036"
+		}
+	],
+	"outputGuardrailsMap": [
+		{}
+	],
+	"inputGuardrailsMap": [
+		{}
+	],
+	"prompts": [
+		{
+			"id": "fd225cb1-45ba-f011-8194-0022489bf196",
+			"name": "FD225CB1-45BA-F011-8194-0022489BF196",
+			"ver": "25.11.05.1248"
+		},
+		{
+			"id": "4d9ca54c-41ba-f011-8194-0022489bf196",
+			"name": "4D9CA54C-41BA-F011-8194-0022489BF196",
+			"ver": "25.11.05.1216"
+		}
+	]
+}

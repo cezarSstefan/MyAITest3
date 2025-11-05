@@ -1,0 +1,22 @@
+{
+	"id": "13d7012c-42ba-f011-8194-0022489bf196",
+	"createdAt": "2025-11-05T12:23:02.780Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"config": {},
+	"name": "MyFirstGuardrail",
+	"ver": "25.11.05.1249",
+	"version": null,
+	"description": "1",
+	"package": "3a0d8548-45ba-f011-8194-0022489bf196",
+	"model": "64d3a6ff-9aa3-f011-b3cd-000d3ab9d08b",
+	"script": null,
+	"rulesengine": null,
+	"type": "llm",
+	"prompts": [
+		{
+			"id": "17f91333-42ba-f011-8194-0022489bf196",
+			"name": "17F91333-42BA-F011-8194-0022489BF196",
+			"ver": "25.11.05.1223"
+		}
+	]
+}
